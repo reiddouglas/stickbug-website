@@ -1,0 +1,17 @@
+.box1 {
+    background-color:orange;
+    width:600px;
+    height:400px;
+}
+.box2 {
+    background-color:rgb(179, 16, 243);
+    width:600px;
+    height:400px;
+}
+
+.box3 {
+    background-color:rgb(179, 19, 165);
+    width:100px;
+    height:300px;
+    border:50px;
+}
