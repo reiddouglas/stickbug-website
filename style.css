@@ -34,13 +34,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
+    /*
     background-blend-mode: darken;
+    */
 }
 
-body::after {
-    background-color: black;
-    z-index: -1;
-}
 
 
 
