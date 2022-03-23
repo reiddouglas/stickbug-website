@@ -28,7 +28,8 @@ body {
     */
     background-color: black;
     content:"";
-    background:rgba(0,0,0,0.7)url("images/food1.jpg");
+    background:rgba(0,0,0,0.7);
+    background-image: url("images/food1.jpg");
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
