@@ -27,22 +27,17 @@ body {
     background-position: center;
     */
     background-color: black;
-    
-}
-
-body::before {
     content:"";
-    background-image:url("images/food1.jpg");
+    background:rgba(0,0,0,0.7)url("images/food1.jpg");
     background-position:center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size:cover;
-    background-position: center;
-    opacity: 50%;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
+    background-blend-mode: darken;
+}
+
+body::after {
+    background-color: black;
     z-index: -1;
 }
 
