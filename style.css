@@ -10,28 +10,120 @@
     width: 100%;
 }
 
-body {
-    background-color: gray;
+html {
+    height: 100%;
 }
 
-header {
+head{
+    position:center;
+}
+
+body {
+    /*
     background-image:url("images/food1.jpg");
     background-position:center;
+    background-repeat: no-repeat;
     background-size:cover;
-    height: 118px;
+    background-position: center;
+    */
+    background-color: black;
+    
 }
 
+body::before {
+    content:"";
+    background-image:url("images/food1.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    opacity: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
+
+
+
+header {
+    text-align: center;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}
+
+
 nav {
-    background-color: red;
-    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 10px;
 }
 
 main {
-    background-color: pink;
-    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 80px;
 }
 
 footer {
-    background-color: green;
-    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+}
+
+span {
+    font-size: 10px;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+    
+a {
+    font-size: 18px;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav a {
+    text-decoration: none;
+    font-size:medium;
+    padding-left: 7px;
+    padding-right: 7px;
+    color:white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: none;
+}
+
+nav a:hover{
+    opacity: 70%;
 }
